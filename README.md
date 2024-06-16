@@ -45,6 +45,9 @@ npx prisma migrate dev
 
 //DENTRO DO ARQUIVO .env DEFINIA: DATABASE_URL="link do seu banco de dados"
 //o banco de dados usado no projeto foi o sqlite
+//terminado as configurações do arquivo .env rode
+
+npm run dev
 ```
 
 
