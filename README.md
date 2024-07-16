@@ -41,13 +41,9 @@ git clone https://github.com/Jaedsonn/lapadarie-back.git
 cd project-name
 npm i
 mkdir .env
-npx prisma migrate dev
 
-//DENTRO DO ARQUIVO .env DEFINIA: DATABASE_URL="link do seu banco de dados"
+//DENTRO DO ARQUIVO .env DEFINIA: DATABASE_URL="file:./dev.db"
 //o banco de dados usado no projeto foi o sqlite
-//terminado as configurações do arquivo .env rode
-
-npm run dev
 ```
 
 
